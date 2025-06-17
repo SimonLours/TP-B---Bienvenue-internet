@@ -31,11 +31,11 @@
 
 1. Oui le client reçoit bien une réponse, dans le navigateur on voit "Hello World!" et dans telnet aussi
 
-2. Le message est composé d’une ligne de statut (`HTTP/1.1 200 OK`), d’entêtes (`Content-Type`, `Content-Length`, `Connection`), d’une ligne vide et enfin du corps de la réponse avec le texte "Hello World!"
+2. Le message est composé d’une ligne de statut (HTTP/1.1 200 OK), d’entêtes (Content-Type, Content-Length, Connection), d’une ligne vide et enfin du corps de la réponse avec le texte "Hello World!"
 
-3. Si je change la valeur de `Content-Length`, soit le message est tronqué si la valeur est trop petite, soit il y a des caractères en trop ou des bugs d’affichage si la valeur est trop grande
+3. Si je change la valeur de Content-Length, soit le message est tronqué si la valeur est trop petite, soit il y a des caractères en trop ou des bugs d’affichage si la valeur est trop grande
 
-4. Si j’enlève complètement `Content-Length`, certains clients comme curl ou telnet peuvent quand même afficher le contenu mais d’autres comme le navigateur peuvent bloquer ou ne rien afficher du tout
+4. Si j’enlève complètement Content-Length, certains clients comme curl ou telnet peuvent quand même afficher le contenu mais d’autres comme le navigateur peuvent bloquer ou ne rien afficher du tout
 
 5. Si je supprime la ligne vide entre les entêtes et le corps, le client ne comprend pas où commence le corps, donc souvent il n’affiche rien ou affiche une erreur
 
