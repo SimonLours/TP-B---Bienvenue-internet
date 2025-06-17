@@ -3,6 +3,8 @@
 
 ## 1.5 Questions intermédiaires
 
+*RFC = Request for Comments désigne un document numéroté où sont traités, décrits et définis des protocoles, concepts, méthodes et programmes Internet.*
+
 1. La ligne `GET / HTTP/1.1` contient trois éléments : la méthode HTTP (GET) qui indique ce qu’on veut faire, le chemin (/) qui est la ressource qu’on demande, et la version du protocole (HTTP/1.1) qui précise comment la communication doit se faire
 
 2. Il faut appuyer deux fois sur Entrée parce que la première ligne vide marque la fin des entêtes dans une requête HTTP, sans cette ligne le serveur ne sait pas que la requête est terminée
