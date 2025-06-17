@@ -29,7 +29,7 @@
 
 ## 2.1 Questions – Serveur minimal "Hello World"
 
-1. Oui le client reçoit bien une réponse, dans le navigateur on voit "Hello World!" et dans telnet ou curl aussi
+1. Oui le client reçoit bien une réponse, dans le navigateur on voit "Hello World!" et dans telnet aussi
 
 2. Le message est composé d’une ligne de statut (`HTTP/1.1 200 OK`), d’entêtes (`Content-Type`, `Content-Length`, `Connection`), d’une ligne vide et enfin du corps de la réponse avec le texte "Hello World!"
 
