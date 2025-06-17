@@ -67,8 +67,3 @@
 
 
 
-
-9. Si quelqu’un tape une URL comme `/../../etc/passwd`, ça peut poser un problème si je lis les fichiers du système, faut bien vérifier les chemins pour pas sortir de mon dossier serveur
-
-10. Pour l’instant je traite le chemin comme une simple chaîne, mais pour éviter les attaques faut filtrer ce que l’utilisateur peut demander et bloquer les caractères suspects comme `..` ou `%2e`
-
